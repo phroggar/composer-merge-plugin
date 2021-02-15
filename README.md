@@ -1,6 +1,24 @@
-[![Latest Stable Version]](https://packagist.org/packages/wikimedia/composer-merge-plugin) [![License]](https://github.com/wikimedia/composer-merge-plugin/blob/master/LICENSE)
-[![Build Status]](https://github.com/wikimedia/composer-merge-plugin/actions)
-[![Code Coverage]](https://scrutinizer-ci.com/g/wikimedia/composer-merge-plugin/?branch=master)
+Warning / Info
+==============
+
+This fork is only a temporary measure until things are sorted out in https://github.com/wikimedia/composer-merge-plugin/pull/189 . 
+After a new version is being released (this could be 1.5.0 or 2.0), this fork will be removed. 
+
+Use temp fix like this
+
+    {
+        "repositories": [
+            {
+                "type":"vcs",
+                "url":"https://github.com/phroggar/composer-merge-plugin"
+            }
+        ],
+        "require": {
+            "wikimedia/composer-merge-plugin": ">=1.4.9"
+        }
+    }
+
+
 
 Composer Merge Plugin
 =====================
